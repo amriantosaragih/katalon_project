@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Search Input'), 'harusnya aku')
 
 WebUI.click(findTestObject('Click Search Button'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
