@@ -25,5 +25,7 @@ WebUI.setText(findTestObject('Search Input'), 'katalon')
 
 WebUI.click(findTestObject('Click Search Button'))
 
+WebUI.acceptAlert()
+
 WebUI.closeBrowser()
 
