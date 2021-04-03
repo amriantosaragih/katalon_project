@@ -21,9 +21,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.youtube.com/')
 
-WebUI.setText(findTestObject('Search Input'), 'katalon')
+WebUI.click(findTestObject('klikFilm'))
 
-WebUI.click(findTestObject('Click Search Button'))
-
-WebUI.closeBrowser()
+WebUI.delay(2)
 

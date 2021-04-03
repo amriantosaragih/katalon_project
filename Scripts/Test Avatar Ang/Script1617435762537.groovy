@@ -17,13 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://www.youtube.com/')
 
-WebUI.setText(findTestObject('Search Input'), 'katalon')
+WebUI.click(findTestObject('Click Library'))
 
-WebUI.click(findTestObject('Click Search Button'))
-
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
