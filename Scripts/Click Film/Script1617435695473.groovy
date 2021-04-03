@@ -23,3 +23,5 @@ WebUI.navigateToUrl('https://www.youtube.com/')
 
 WebUI.click(findTestObject('klikFilm'))
 
+WebUI.delay(2)
+
