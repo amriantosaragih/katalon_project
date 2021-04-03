@@ -27,3 +27,5 @@ WebUI.setText(findTestObject('OR Adam/Search'), 'Lagu Indo')
 
 WebUI.click(findTestObject('OR Adam/Click Search'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('OR Adam/Pilih Video'))
+
